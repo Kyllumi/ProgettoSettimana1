@@ -1,0 +1,155 @@
+/* REGOLE GENERALI */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 320px;
+}
+
+h1,
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #25a2c3;
+}
+
+div.container {
+    width: 100%;
+}
+
+/* HEADER */
+header {
+    background-color: black;
+}
+
+header div.logo img {
+    width: 10rem;
+    padding: 1.5em;
+}
+
+/* MAIN */
+main section {
+    padding: 3rem 0;
+}
+
+main h2 {
+    padding: 0.8rem 0;
+}
+
+main p,
+footer p {
+    padding: 0.5rem 0.5rem;
+}
+
+main h1 {
+    font-size: 2rem;
+    padding: 3.2rem 0 1rem 0;
+}
+
+/* SEZIONE 1 */
+.section1 {
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 1rem 0 1rem;
+}
+
+.section1 button {
+    background-color: #f04c2f;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem 1.6rem;
+    margin: 2rem 0;
+    border-radius: 0.4rem;
+    color: white;
+    border: none;
+}
+
+/* SEZIONE 2 */
+.section2 div.circle-pc {
+    background-image: url(../images/notebook.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    margin: 1.6rem auto;
+}
+
+/* SEZIONE 3 */
+.section3 {
+    background-color: #e22d0e;
+    color: white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.section3>h2 {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.section3 cite {
+    font-style: italic;
+}
+
+.section3 p {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+}
+
+p.CEO-name {
+    font-size: 1.4rem;
+}
+
+/* ARTICLE | SEZIONE 4 */
+article {
+    border: 1px solid #dee1e3;
+    width: 90%;
+    margin: 1rem auto 2rem auto;
+}
+
+article img {
+    width: 100%;
+}
+
+/* FOOTER */
+footer {
+    color: #c8e7f0;
+    background-color: #25a2c3;
+    padding: 3rem 0;
+}
+
+footer p {
+    color: white;
+    padding-top: 2rem;
+}
+
+footer p.contacts {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+footer p:last-child {
+    font-size: 0.8rem;
+    color: #c8e7f0;
+}
+
+footer ul {
+    list-style: none;
+    padding-bottom: 2rem;
+}
+
+hr{
+    width: 40%;
+    padding: 2rem auto;
+}
+footer a {
+    color: #c8e7f0;
+    text-decoration: underline;
+}
